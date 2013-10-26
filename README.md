@@ -13,3 +13,5 @@ Search Discogs.com's database for an artist or album release. Drill-down menus p
 
 ######v.01
 Initial Release
+######v.02
+Various Improvements
