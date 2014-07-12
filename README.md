@@ -19,3 +19,5 @@ Various Improvements
 Fixed false positives. Initial Release
 ######v.1.01
 Removed Alleyoop support for Packal submission
+######v.1.02
+Added ability to copy selected info to the clipboard (i.e., Real Name, Record Label, Genre styles)
