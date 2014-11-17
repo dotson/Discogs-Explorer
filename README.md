@@ -25,3 +25,5 @@ Removed Alleyoop support for Packal submission
 Added ability to copy selected info to the clipboard (i.e., Real Name, Record Label, Genre styles)
 ######v.1.1b
 Update to require new OAuth per Discogs.com API requirements.
+######v.1.1b2
+Possible fix for Yosemite.
