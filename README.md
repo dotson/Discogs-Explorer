@@ -5,6 +5,9 @@ Discogs.com Explorer
 
 Search Discogs.com's database for an artist or album release. Drill-down menus provide ability to browse the database.
 
+*I highly recommend downloading this from Packal as they provide an updating feature for future versions of the workflow.
+http://www.packal.org/workflow/discogs-explorer*
+
 Features:
 - A drill-down style workflow to allow exploring the Discogs.com release database. The workflow is triggered by the keyword "dex" or via hotkey.
 - Upon actioning, the workflow defaults to checking if iTunes is currently playing and will look up info for the current track at Discogs.
