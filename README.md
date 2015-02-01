@@ -24,9 +24,9 @@ Limitations and Such:
 - Because of the way Discogs categorizes 'releases' there is a little inconsistency across all of the data. I've tried to smooth this out as best I can.
 - Essentially, this workflow provides the same search ability as the main Discogs site. This means we still have to deal with how they handle artists with similar names (i.e., adding (2), (3), etc. to them). There's nothing I can do about that, and yeah I think it's annoying too.
 - I purposely left out the loading of Discogs images because it dramatically slowed down the workflow to the point of not being useable.
-- The Discogs API is still having server-side issues so you may run into trouble with this extension here and there. I am working on getting the little bugs out but wanted to post this update ASAP since OAuth totally broke the previous version.
 
 Changelog:
+- **v1.2** Included external trigger to enable this workflow to be triggered by my other workflow, DJ Pedro (v1.4.1).
 - **v.1.1** Fix OAuth for Yosemite.
 - **v.1.1b** Update to require new OAuth per Discogs.com API requirements.
 - **v.1.02** Added ability to copy selected info to the clipboard (i.e., Real Name, Record Label, Genre styles)
