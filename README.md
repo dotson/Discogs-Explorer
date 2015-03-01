@@ -26,7 +26,7 @@ Limitations and Such:
 - I purposely left out the loading of Discogs images because it dramatically slowed down the workflow to the point of not being useable.
 
 Changelog:
-- **v1.2** Included external trigger to enable this workflow to be triggered by my other workflow, DJ Pedro (v1.4.1).
+- **v1.12** Included external trigger to enable this workflow to be triggered by my other workflow, DJ Pedro (v1.4.1).
 - **v.1.1** Fix OAuth for Yosemite.
 - **v.1.1b** Update to require new OAuth per Discogs.com API requirements.
 - **v.1.02** Added ability to copy selected info to the clipboard (i.e., Real Name, Record Label, Genre styles)
