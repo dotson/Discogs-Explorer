@@ -16,9 +16,7 @@ Features:
 - Depending on the results rows will provide static text, a direct link to the relevant Discogs url, or further drill-down ("Explore") options.
 
 Notes: 
-- This workflow requires you to have a Discogs log in already set up. This is entirely due to their new API requirement for OAuth verification. Trust me, I hate requirements like this as much as you do.
-- Upon starting this workflow you will be walked through the relatively painless OAuth process. After that it should never ask you again. The keyword "|dexauth" opens up the Authentication Set-up window where you can do a few things like start the OAuth process over in case something went weird on you.
-- "|dexauth" opens up the Set-up area. You can check the Discogs.com OAuth connection, reveal the location of your plist file, or remove all info and re-start the set-up process.
+- All Discogs OAuth updates from the last version have been removed since they re-simplified the process!
 
 Limitations and Such:
 - Because of the way Discogs categorizes 'releases' there is a little inconsistency across all of the data. I've tried to smooth this out as best I can.
@@ -26,6 +24,7 @@ Limitations and Such:
 - I purposely left out the loading of Discogs images because it dramatically slowed down the workflow to the point of not being useable.
 
 Changelog:
+- **v1.13** Discogs changed OAuth requirements again! This should fix any issues.
 - **v1.12** Included external trigger to enable this workflow to be triggered by my other workflow, DJ Pedro (v1.4.1).
 - **v.1.1** Fix OAuth for Yosemite.
 - **v.1.1b** Update to require new OAuth per Discogs.com API requirements.
