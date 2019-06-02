@@ -1,12 +1,9 @@
 Discogs.com Explorer
 =============
 
-*An Alfred 3 workflow for exploring the Discogs.com database, with family-friendly drill-down menus.*
+*An Alfred workflow for exploring the Discogs.com database, with family-friendly drill-down menus.*
 
 Search Discogs.com's database for an artist or album release. Drill-down menus provide ability to browse the database.
-
-*I highly recommend downloading this from Packal as they provide an updating feature for future versions of the workflow.
-http://www.packal.org/workflow/discogs-explorer*
 
 Features:
 - A drill-down style workflow to allow exploring the Discogs.com release database. The workflow is triggered by the keyword "dex" or via hotkey.
