@@ -113,7 +113,7 @@
 readonly remote_info_plist='https://raw.githubusercontent.com/dotson/Discogs-Explorer/master/Source/info.plist'
 readonly workflow_url='https://github.com/dotson/Discogs-Explorer/raw/master/Discogs%20Explorer.alfredworkflow'
 readonly download_type='github_release'
-readonly frequency_check='0'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -406,8 +406,6 @@ Limitations and Such:
 			<integer>165</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>1.3.1</string>
 	<key>webaddress</key>
