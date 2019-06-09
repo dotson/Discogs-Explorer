@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Discogs Explorer</name>
+  <version>1.13</version>
+  <bundle>com.dotson.discogsexplorer</bundle>
+  <updated>1442937254</updated>
+  <file>discogs_explorer.alfredworkflow</file>
+</workflow>
