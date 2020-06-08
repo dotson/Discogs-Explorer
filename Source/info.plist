@@ -355,7 +355,7 @@ Limitations and Such:
 		<key>4393F66A-2C04-4484-9387-E4CF5FDE3B64</key>
 		<dict>
 			<key>xpos</key>
-			<integer>495</integer>
+			<integer>540</integer>
 			<key>ypos</key>
 			<integer>165</integer>
 		</dict>
@@ -395,7 +395,7 @@ Limitations and Such:
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.4.1</string>
+	<string>1.4.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/dotson/Discogs-Explorer</string>
 </dict>
