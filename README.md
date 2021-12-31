@@ -16,3 +16,6 @@ Limitations and Such:
 - Because of the way Discogs categorizes 'releases' there is a little inconsistency across all of the data. I've tried to smooth this out as best I can.
 - Essentially, this workflow provides the same search ability as the main Discogs site. This means we still have to deal with how they handle artists with similar names (i.e., adding (2), (3), etc. to them). There's nothing I can do about that, and yeah I think it's annoying too.
 - I purposely left out the loading of Discogs images because it dramatically slowed down the workflow to the point of not being useable.
+
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=N67Q99HLLYR9N)
