@@ -3,6 +3,8 @@ Discogs.com Explorer
 
 *An Alfred workflow for exploring the Discogs.com database, with family-friendly drill-down menus.*
 
+This version is compatible with Alfred 5 (1.5.0).
+
 Search Discogs.com's database for an artist or album release. Drill-down menus provide ability to browse the database.
 
 Features:
