@@ -10,7 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FAF4DDAC-32ED-41E8-B2FE-342773B196ED</string>
+				<string>95C364A3-F9FE-44F1-9F22-7B8B6FD6AF54</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,20 +19,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C841A561-F609-40BA-BF78-E3E4433280DF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>FAF4DDAC-32ED-41E8-B2FE-342773B196ED</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>FAF4DDAC-32ED-41E8-B2FE-342773B196ED</key>
+		<key>95C364A3-F9FE-44F1-9F22-7B8B6FD6AF54</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -47,6 +34,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>4393F66A-2C04-4484-9387-E4CF5FDE3B64</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C841A561-F609-40BA-BF78-E3E4433280DF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>95C364A3-F9FE-44F1-9F22-7B8B6FD6AF54</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -186,37 +186,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>2</integer>
-				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>D</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>C841A561-F609-40BA-BF78-E3E4433280DF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -240,7 +209,7 @@ fi</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Searching for {query}</string>
+				<string></string>
 				<key>script</key>
 				<string>set query to "{query}"
 
@@ -762,24 +731,55 @@ end if
 -- return XML data
 wf's to_xml("")</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>DiscogsExplorer.applescript</string>
 				<key>subtext</key>
 				<string>Search for Artist or Release Info from Discogs.com</string>
 				<key>title</key>
 				<string>Discogs Explorer</string>
 				<key>type</key>
-				<integer>6</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>FAF4DDAC-32ED-41E8-B2FE-342773B196ED</string>
+			<string>95C364A3-F9FE-44F1-9F22-7B8B6FD6AF54</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C841A561-F609-40BA-BF78-E3E4433280DF</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -861,6 +861,13 @@ Search Discogs.com's database for an artist or album release. Drill-down menus p
 			<key>ypos</key>
 			<real>165</real>
 		</dict>
+		<key>95C364A3-F9FE-44F1-9F22-7B8B6FD6AF54</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
 		<key>ADE556C9-673E-4627-A634-791143842F54</key>
 		<dict>
 			<key>colorindex</key>
@@ -879,13 +886,6 @@ Search Discogs.com's database for an artist or album release. Drill-down menus p
 			<key>ypos</key>
 			<real>165</real>
 		</dict>
-		<key>FAF4DDAC-32ED-41E8-B2FE-342773B196ED</key>
-		<dict>
-			<key>xpos</key>
-			<real>265</real>
-			<key>ypos</key>
-			<real>165</real>
-		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
@@ -901,7 +901,7 @@ Search Discogs.com's database for an artist or album release. Drill-down menus p
 		<string>http://api.discogs.com</string>
 	</dict>
 	<key>version</key>
-	<string>1.5.1</string>
+	<string>1.5.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/dotson/Discogs-Explorer</string>
 </dict>
